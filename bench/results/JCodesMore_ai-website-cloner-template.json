@@ -1,0 +1,43 @@
+{
+  "score": {
+    "value": 92,
+    "grade": "A",
+    "total": 2,
+    "counts": {
+      "error": 0,
+      "warn": 0,
+      "info": 2
+    },
+    "byRule": {
+      "const-string-concat": 2
+    },
+    "fileCount": 8,
+    "perFilePenalty": 0.25
+  },
+  "findings": [
+    {
+      "ruleId": "const-string-concat",
+      "severity": "info",
+      "message": "two string literals joined with `+` — write a single literal or template",
+      "file": "C:\\Users\\wemd1\\AppData\\Local\\Temp\\slopfighter-bench\\JCodesMore_ai-website-cloner-template\\scripts\\sync-skills.mjs",
+      "line": 46,
+      "column": 3,
+      "endLine": 46,
+      "endColumn": 4,
+      "fixable": false,
+      "fix": null
+    },
+    {
+      "ruleId": "const-string-concat",
+      "severity": "info",
+      "message": "two string literals joined with `+` — write a single literal or template",
+      "file": "C:\\Users\\wemd1\\AppData\\Local\\Temp\\slopfighter-bench\\JCodesMore_ai-website-cloner-template\\scripts\\sync-skills.mjs",
+      "line": 72,
+      "column": 3,
+      "endLine": 72,
+      "endColumn": 4,
+      "fixable": false,
+      "fix": null
+    }
+  ]
+}

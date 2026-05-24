@@ -1,0 +1,39 @@
+# Trending TypeScript repos that went viral in the last ~3 months (Feb-May 2026).
+# Format: owner/repo  [subpath]
+# subpath is optional; scanner runs on it instead of root.
+
+# AI coding agents / skills (most directly relevant to slopfighter)
+colbymchenry/codegraph
+rohitg00/agentmemory
+mattpocock/sandcastle
+ruvnet/ruflo
+bytedance/UI-TARS-desktop
+can1357/oh-my-pi
+multica-ai/multica
+earendil-works/pi
+craft-ai-agents/craft-agents-oss
+garrytan/gstack
+garrytan/gbrain
+claude-code-best/claude-code
+Gitlawb/openclaude
+NVIDIA/NemoClaw
+NanmiCoder/cc-haha
+tanweai/pua
+
+# AI dev tools / agentic apps
+heygen-com/hyperframes
+Lum1104/Understand-Anything
+JCodesMore/ai-website-cloner-template
+THU-MAIC/OpenMAIC
+diegosouzapw/OmniRoute
+humanlayer/12-factor-agents
+refactoringhq/tolaria
+nexu-io/open-design
+paperclipai/paperclip
+yikart/AiToEarn
+
+# Non-AI TypeScript baseline (sanity contrast)
+playcanvas/supersplat
+chenglou/pretext
+emdash-cms/emdash
+webadderallorg/Recordly

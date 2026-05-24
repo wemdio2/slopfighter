@@ -1,0 +1,53 @@
+{
+  "name": "slopfighter",
+  "version": "0.1.0",
+  "description": "Anti-AI-slop refactor tool. Detects the structural bloat patterns LLMs love to generate — padding comments, useless try/catch, dead imports, explicit any, commented-out code, unnecessary async, and 12 more.",
+  "type": "module",
+  "bin": {
+    "slopfighter": "./bin/slopfighter.mjs"
+  },
+  "files": [
+    "bin",
+    "src",
+    "templates",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node test/run.mjs",
+    "scan": "node bin/slopfighter.mjs scan",
+    "bench": "node bench/run.mjs"
+  },
+  "keywords": [
+    "ai",
+    "slop",
+    "linter",
+    "claude-code",
+    "cursor",
+    "code-quality",
+    "typescript",
+    "javascript",
+    "vibe-coding",
+    "ai-coding",
+    "agent-skill",
+    "refactor"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR-ORG/slopfighter.git"
+  },
+  "homepage": "https://github.com/YOUR-ORG/slopfighter",
+  "bugs": {
+    "url": "https://github.com/YOUR-ORG/slopfighter/issues"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^5.4.0",
+    "picocolors": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

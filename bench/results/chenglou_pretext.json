@@ -1,0 +1,363 @@
+{
+  "score": {
+    "value": 81,
+    "grade": "B",
+    "total": 27,
+    "counts": {
+      "error": 0,
+      "warn": 7,
+      "info": 20
+    },
+    "byRule": {
+      "padding-comments": 1,
+      "over-defensive-null-check": 1,
+      "unnecessary-async": 3,
+      "trivial-arrow-wrapper": 3,
+      "return-undefined": 2,
+      "redundant-await": 10,
+      "useless-try-catch": 1,
+      "single-method-class": 1,
+      "commented-out-code": 5
+    },
+    "fileCount": 55,
+    "perFilePenalty": 0.62
+  },
+  "findings": [
+    {
+      "ruleId": "padding-comments",
+      "severity": "warn",
+      "message": "Comment \"--- Render ---\" just restates \"render\". Drop it.",
+      "file": "C:\\Users\\wemd1\\AppData\\Local\\Temp\\slopfighter-bench\\chenglou_pretext\\pages\\accuracy.ts",
+      "line": 279,
+      "column": 1,
+      "endLine": 279,
+      "endColumn": 2,
+      "fixable": true,
+      "fix": {
+        "start": 8412,
+        "end": 8431,
+        "replacement": ""
+      }
+    },
+    {
+      "ruleId": "over-defensive-null-check",
+      "severity": "info",
+      "message": "triple nullish check on the same identifier — `if (undefined != null)` is enough",
+      "file": "C:\\Users\\wemd1\\AppData\\Local\\Temp\\slopfighter-bench\\chenglou_pretext\\pages\\corpus.ts",
+      "line": 909,
+      "column": 5,
+      "endLine": 909,
+      "endColumn": 6,
+      "fixable": false,
+      "fix": null
+    },
+    {
+      "ruleId": "unnecessary-async",
+      "severity": "info",
+      "message": "async \"loadSources\" has no `await` — drop `async` or add the missing await",
+      "file": "C:\\Users\\wemd1\\AppData\\Local\\Temp\\slopfighter-bench\\chenglou_pretext\\pages\\corpus.ts",
+      "line": 999,
+      "column": 1,
+      "endLine": 999,
+      "endColumn": 2,
+      "fixable": false,
+      "fix": null
+    },
+    {
+      "ruleId": "unnecessary-async",
+      "severity": "info",
+      "message": "async \"loadText\" has no `await` — drop `async` or add the missing await",
+      "file": "C:\\Users\\wemd1\\AppData\\Local\\Temp\\slopfighter-bench\\chenglou_pretext\\pages\\corpus.ts",
+      "line": 1003,
+      "column": 1,
+      "endLine": 1003,
+      "endColumn": 2,
+      "fixable": false,
+      "fix": null
+    },
+    {
+      "ruleId": "trivial-arrow-wrapper",
+      "severity": "info",
+      "message": "trivial wrapper — replace `width => Number.isFinite(width)` with `Number.isFinite`",
+      "file": "C:\\Users\\wemd1\\AppData\\Local\\Temp\\slopfighter-bench\\chenglou_pretext\\pages\\corpus.ts",
+      "line": 270,
+      "column": 13,
+      "endLine": 270,
+      "endColumn": 14,
+      "fixable": false,
+      "fix": null
+    },
+    {
+      "ruleId": "return-undefined",
+      "severity": "info",
+      "message": "drop the explicit `undefined` — bare `return;` is equivalent",
+      "file": "C:\\Users\\wemd1\\AppData\\Local\\Temp\\slopfighter-bench\\chenglou_pretext\\scripts\\benchmark-check.ts",
+      "line": 119,
+      "column": 5,
+      "endLine": 119,
+      "endColumn": 6,
+      "fixable": true,
+      "fix": {
+        "start": 3132,
+        "end": 3148,
+        "replacement": "return;"
+      }
+    },
+    {
+      "ruleId": "return-undefined",
+      "severity": "info",
+      "message": "drop the explicit `undefined` — bare `return;` is equivalent",
+      "file": "C:\\Users\\wemd1\\AppData\\Local\\Temp\\slopfighter-bench\\chenglou_pretext\\scripts\\benchmark-check.ts",
+      "line": 149,
+      "column": 5,
+      "endLine": 149,
+      "endColumn": 6,
+      "fixable": true,
+      "fix": {
+        "start": 4285,
+        "end": 4301,
+        "replacement": "return;"
+      }
+    },
+    {
+      "ruleId": "redundant-await",
+      "severity": "info",
+      "message": "`return await x` outside try/catch — just `return x`",
+      "file": "C:\\Users\\wemd1\\AppData\\Local\\Temp\\slopfighter-bench\\chenglou_pretext\\scripts\\browser-automation.ts",
+      "line": 101,
+      "column": 3,
+      "endLine": 101,
+      "endColumn": 4,
+      "fixable": false,
+      "fix": null
+    },
+    {
+      "ruleId": "redundant-await",
+      "severity": "info",
+      "message": "`return await x` outside try/catch — just `return x`",
+      "file": "C:\\Users\\wemd1\\AppData\\Local\\Temp\\slopfighter-bench\\chenglou_pretext\\scripts\\browser-automation.ts",
+      "line": 326,
+      "column": 7,
+      "endLine": 326,
+      "endColumn": 8,
+      "fixable": false,
+      "fix": null
+    },
+    {
+      "ruleId": "trivial-arrow-wrapper",
+      "severity": "info",
+      "message": "trivial wrapper — replace `width => Number.isFinite(width)` with `Number.isFinite`",
+      "file": "C:\\Users\\wemd1\\AppData\\Local\\Temp\\slopfighter-bench\\chenglou_pretext\\scripts\\corpus-check.ts",
+      "line": 164,
+      "column": 13,
+      "endLine": 164,
+      "endColumn": 14,
+      "fixable": false,
+      "fix": null
+    },
+    {
+      "ruleId": "redundant-await",
+      "severity": "info",
+      "message": "`return await x` outside try/catch — just `return x`",
+      "file": "C:\\Users\\wemd1\\AppData\\Local\\Temp\\slopfighter-bench\\chenglou_pretext\\scripts\\corpus-check.ts",
+      "line": 157,
+      "column": 3,
+      "endLine": 157,
+      "endColumn": 4,
+      "fixable": false,
+      "fix": null
+    },
+    {
+      "ruleId": "redundant-await",
+      "severity": "info",
+      "message": "`return await x` outside try/catch — just `return x`",
+      "file": "C:\\Users\\wemd1\\AppData\\Local\\Temp\\slopfighter-bench\\chenglou_pretext\\scripts\\corpus-font-matrix.ts",
+      "line": 356,
+      "column": 3,
+      "endLine": 356,
+      "endColumn": 4,
+      "fixable": false,
+      "fix": null
+    },
+    {
+      "ruleId": "redundant-await",
+      "severity": "info",
+      "message": "`return await x` outside try/catch — just `return x`",
+      "file": "C:\\Users\\wemd1\\AppData\\Local\\Temp\\slopfighter-bench\\chenglou_pretext\\scripts\\corpus-status.ts",
+      "line": 232,
+      "column": 3,
+      "endLine": 232,
+      "endColumn": 4,
+      "fixable": false,
+      "fix": null
+    },
+    {
+      "ruleId": "redundant-await",
+      "severity": "info",
+      "message": "`return await x` outside try/catch — just `return x`",
+      "file": "C:\\Users\\wemd1\\AppData\\Local\\Temp\\slopfighter-bench\\chenglou_pretext\\scripts\\corpus-sweep.ts",
+      "line": 120,
+      "column": 3,
+      "endLine": 120,
+      "endColumn": 4,
+      "fixable": false,
+      "fix": null
+    },
+    {
+      "ruleId": "trivial-arrow-wrapper",
+      "severity": "info",
+      "message": "trivial wrapper — replace `width => Number.isFinite(width)` with `Number.isFinite`",
+      "file": "C:\\Users\\wemd1\\AppData\\Local\\Temp\\slopfighter-bench\\chenglou_pretext\\scripts\\corpus-taxonomy.ts",
+      "line": 110,
+      "column": 13,
+      "endLine": 110,
+      "endColumn": 14,
+      "fixable": false,
+      "fix": null
+    },
+    {
+      "ruleId": "redundant-await",
+      "severity": "info",
+      "message": "`return await x` outside try/catch — just `return x`",
+      "file": "C:\\Users\\wemd1\\AppData\\Local\\Temp\\slopfighter-bench\\chenglou_pretext\\scripts\\corpus-taxonomy.ts",
+      "line": 90,
+      "column": 3,
+      "endLine": 90,
+      "endColumn": 4,
+      "fixable": false,
+      "fix": null
+    },
+    {
+      "ruleId": "useless-try-catch",
+      "severity": "warn",
+      "message": "catch logs and rethrows — caller can handle it, the log just spams noise.",
+      "file": "C:\\Users\\wemd1\\AppData\\Local\\Temp\\slopfighter-bench\\chenglou_pretext\\scripts\\package-smoke-test.ts",
+      "line": 16,
+      "column": 3,
+      "endLine": 19,
+      "endColumn": 2,
+      "fixable": false,
+      "fix": null
+    },
+    {
+      "ruleId": "unnecessary-async",
+      "severity": "info",
+      "message": "async \"installTarball\" has no `await` — drop `async` or add the missing await",
+      "file": "C:\\Users\\wemd1\\AppData\\Local\\Temp\\slopfighter-bench\\chenglou_pretext\\scripts\\package-smoke-test.ts",
+      "line": 155,
+      "column": 1,
+      "endLine": 155,
+      "endColumn": 2,
+      "fixable": false,
+      "fix": null
+    },
+    {
+      "ruleId": "redundant-await",
+      "severity": "info",
+      "message": "`return await x` outside try/catch — just `return x`",
+      "file": "C:\\Users\\wemd1\\AppData\\Local\\Temp\\slopfighter-bench\\chenglou_pretext\\scripts\\report-server.ts",
+      "line": 61,
+      "column": 9,
+      "endLine": 61,
+      "endColumn": 10,
+      "fixable": false,
+      "fix": null
+    },
+    {
+      "ruleId": "redundant-await",
+      "severity": "info",
+      "message": "`return await x` outside try/catch — just `return x`",
+      "file": "C:\\Users\\wemd1\\AppData\\Local\\Temp\\slopfighter-bench\\chenglou_pretext\\scripts\\report-server.ts",
+      "line": 63,
+      "column": 7,
+      "endLine": 63,
+      "endColumn": 8,
+      "fixable": false,
+      "fix": null
+    },
+    {
+      "ruleId": "redundant-await",
+      "severity": "info",
+      "message": "`return await x` outside try/catch — just `return x`",
+      "file": "C:\\Users\\wemd1\\AppData\\Local\\Temp\\slopfighter-bench\\chenglou_pretext\\scripts\\status-dashboard.ts",
+      "line": 55,
+      "column": 3,
+      "endLine": 55,
+      "endColumn": 4,
+      "fixable": false,
+      "fix": null
+    },
+    {
+      "ruleId": "single-method-class",
+      "severity": "info",
+      "message": "class \"TestOffscreenCanvas\" wraps a single this-free method — make it a function",
+      "file": "C:\\Users\\wemd1\\AppData\\Local\\Temp\\slopfighter-bench\\chenglou_pretext\\src\\layout.test.ts",
+      "line": 261,
+      "column": 1,
+      "endLine": 261,
+      "endColumn": 2,
+      "fixable": false,
+      "fix": null
+    },
+    {
+      "ruleId": "commented-out-code",
+      "severity": "warn",
+      "message": "11-line commented-out code block — remove or restore",
+      "file": "C:\\Users\\wemd1\\AppData\\Local\\Temp\\slopfighter-bench\\chenglou_pretext\\src\\layout.ts",
+      "line": 3,
+      "column": 1,
+      "endLine": 33,
+      "endColumn": 1,
+      "fixable": false,
+      "fix": null
+    },
+    {
+      "ruleId": "commented-out-code",
+      "severity": "warn",
+      "message": "9-line commented-out code block — remove or restore",
+      "file": "C:\\Users\\wemd1\\AppData\\Local\\Temp\\slopfighter-bench\\chenglou_pretext\\src\\layout.ts",
+      "line": 670,
+      "column": 1,
+      "endLine": 681,
+      "endColumn": 1,
+      "fixable": false,
+      "fix": null
+    },
+    {
+      "ruleId": "commented-out-code",
+      "severity": "warn",
+      "message": "2-line commented-out code block — remove or restore",
+      "file": "C:\\Users\\wemd1\\AppData\\Local\\Temp\\slopfighter-bench\\chenglou_pretext\\src\\layout.ts",
+      "line": 701,
+      "column": 1,
+      "endLine": 704,
+      "endColumn": 1,
+      "fixable": false,
+      "fix": null
+    },
+    {
+      "ruleId": "commented-out-code",
+      "severity": "warn",
+      "message": "3-line commented-out code block — remove or restore",
+      "file": "C:\\Users\\wemd1\\AppData\\Local\\Temp\\slopfighter-bench\\chenglou_pretext\\src\\layout.ts",
+      "line": 706,
+      "column": 1,
+      "endLine": 708,
+      "endColumn": 1,
+      "fixable": false,
+      "fix": null
+    },
+    {
+      "ruleId": "commented-out-code",
+      "severity": "warn",
+      "message": "2-line commented-out code block — remove or restore",
+      "file": "C:\\Users\\wemd1\\AppData\\Local\\Temp\\slopfighter-bench\\chenglou_pretext\\src\\test-data.ts",
+      "line": 2,
+      "column": 1,
+      "endLine": 5,
+      "endColumn": 1,
+      "fixable": false,
+      "fix": null
+    }
+  ]
+}

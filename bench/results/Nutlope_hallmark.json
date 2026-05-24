@@ -1,0 +1,16 @@
+{
+  "score": {
+    "value": 100,
+    "grade": "A",
+    "total": 0,
+    "counts": {
+      "error": 0,
+      "warn": 0,
+      "info": 0
+    },
+    "byRule": {},
+    "fileCount": 4,
+    "perFilePenalty": 0
+  },
+  "findings": []
+}
