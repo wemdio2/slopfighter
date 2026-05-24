@@ -235,7 +235,7 @@ function render(data) {
 
 <footer>
   Reproducible: <code>node bench/run.mjs</code> &middot; data generated ${data.meta.generated.slice(0, 10)} &middot;
-  <a href="https://github.com/YOUR-ORG/slopfighter">GitHub</a> &middot;
+  <a href="https://github.com/wemdio2/slopfighter">GitHub</a> &middot;
   <a href="https://www.npmjs.com/package/slopfighter">npm</a> &middot;
   MIT
 </footer>

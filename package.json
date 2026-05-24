@@ -35,11 +35,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/YOUR-ORG/slopfighter.git"
+    "url": "git+https://github.com/wemdio2/slopfighter.git"
   },
-  "homepage": "https://github.com/YOUR-ORG/slopfighter",
+  "homepage": "https://github.com/wemdio2/slopfighter",
   "bugs": {
-    "url": "https://github.com/YOUR-ORG/slopfighter/issues"
+    "url": "https://github.com/wemdio2/slopfighter/issues"
   },
   "author": "",
   "license": "MIT",

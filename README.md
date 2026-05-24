@@ -1,6 +1,6 @@
 # slopfighter
 
-[![ci](https://github.com/YOUR-ORG/slopfighter/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR-ORG/slopfighter/actions/workflows/ci.yml)
+[![ci](https://github.com/wemdio2/slopfighter/actions/workflows/ci.yml/badge.svg)](https://github.com/wemdio2/slopfighter/actions/workflows/ci.yml)
 [![npm](https://img.shields.io/npm/v/slopfighter.svg)](https://www.npmjs.com/package/slopfighter)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
@@ -30,7 +30,7 @@ We scanned **29 trending TypeScript repos** created between February and May 202
 - Worst offender: a 54k-star Claude orchestration repo at **4.93 findings per file**.
 - Cleanest: a markdown-based skill repo with **0**.
 
-Full report → [`bench/report.md`](bench/report.md) · Interactive visualization → [`bench/index.html`](bench/index.html) (open locally or enable GitHub Pages → `https://YOUR-ORG.github.io/slopfighter/bench/`). Reproducible: `node bench/run.mjs && node bench/visualize.mjs`.
+Full report → [`bench/report.md`](bench/report.md) · Interactive visualization → [`bench/index.html`](bench/index.html) (open locally or enable GitHub Pages → `https://wemdio2.github.io/slopfighter/bench/`). Reproducible: `node bench/run.mjs && node bench/visualize.mjs`.
 
 ## Install
 

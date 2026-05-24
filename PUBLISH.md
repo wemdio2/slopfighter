@@ -34,12 +34,12 @@ findings across 32,473 files, 17 of 29 scored F.
 "
 
 # Then create the repo on github.com (public), then:
-git remote add origin git@github.com:YOUR-ORG/slopfighter.git
+git remote add origin git@github.com:wemdio2/slopfighter.git
 git push -u origin main
 ```
 
 After push:
-- Update `package.json` `repository.url`, `homepage`, `bugs.url` to point to the actual repo (currently `YOUR-ORG/slopfighter` placeholder)
+- Update `package.json` `repository.url`, `homepage`, `bugs.url` to point to the actual repo (currently `wemdio2/slopfighter` placeholder)
 - Update `README.md` badge URLs and the bottom CTA in `.github/workflows/slopfighter.yml` (`Powered by slopfighter` link)
 - Update `bench/launch-post.md` `github.com/.../slopfighter` placeholders
 

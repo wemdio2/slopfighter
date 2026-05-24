@@ -79,7 +79,7 @@ Pick #1 — the failure rate is the most shareable. #3 is the X-thread one-liner
 
 > 30 trending AI coding repos. 80k structural-slop findings in 15 minutes. Even Matt Pocock's sandcastle scored 18/100. A repo named `claude-code-best/claude-code` scored 26/100. The slop layer is real.
 >
-> `npx slopfighter scan .` → github.com/.../slopfighter
+> `npx slopfighter scan .` → github.com/wemdio2/slopfighter
 
 ---
 
