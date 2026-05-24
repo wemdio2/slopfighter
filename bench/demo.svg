@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 356" width="760" height="356" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">
+  <style>text { dominant-baseline: middle; }</style>
+  <rect x="0" y="0" width="760" height="356" rx="10" fill="#0d1117"/>
+  <rect x="0" y="0" width="760" height="32" rx="10" fill="#161b22"/>
+  <rect x="0" y="22" width="760" height="10" fill="#161b22"/>
+  <circle cx="18" cy="16" r="6" fill="#ff5f57"/>
+  <circle cx="38" cy="16" r="6" fill="#febc2e"/>
+  <circle cx="58" cy="16" r="6" fill="#28c840"/>
+  <text x="380" y="16" text-anchor="middle" fill="#7d8590" font-size="11">slopfighter — anti-AI-slop scan</text>
+  
+    <text x="24" y="52" opacity="0">
+      <tspan fill="#7ee787" xml:space="preserve">$ </tspan><tspan fill="#d2a8ff" xml:space="preserve">npx slopfighter scan ./src</tspan>
+      <animate attributeName="opacity" values="0;1" begin="0.00s;9.80s;19.60s;29.40s;39.20s;49.00s" dur="0.3s" fill="freeze"/>
+      <animate attributeName="opacity" values="1;0" begin="9.30s;19.10s;28.90s;38.70s;48.50s;58.30s" dur="0.2s" fill="freeze"/>
+    </text>
+    <text x="24" y="72" opacity="0">
+      
+      <animate attributeName="opacity" values="0;1" begin="0.45s;10.25s;20.05s;29.85s;39.65s;49.45s" dur="0.3s" fill="freeze"/>
+      <animate attributeName="opacity" values="1;0" begin="9.30s;19.10s;28.90s;38.70s;48.50s;58.30s" dur="0.2s" fill="freeze"/>
+    </text>
+    <text x="24" y="92" opacity="0">
+      <tspan fill="#f0f6fc" xml:space="preserve">src/components/UserList.tsx</tspan>
+      <animate attributeName="opacity" values="0;1" begin="0.90s;10.70s;20.50s;30.30s;40.10s;49.90s" dur="0.3s" fill="freeze"/>
+      <animate attributeName="opacity" values="1;0" begin="9.30s;19.10s;28.90s;38.70s;48.50s;58.30s" dur="0.2s" fill="freeze"/>
+    </text>
+    <text x="24" y="112" opacity="0">
+      <tspan fill="#6e7681" xml:space="preserve">  18:1  </tspan><tspan fill="#d29922" xml:space="preserve">warn  </tspan><tspan fill="#c9d1d9" xml:space="preserve">Comment "Get user name" just restates "getUserName"  </tspan><tspan fill="#6e7681" xml:space="preserve">(padding-comments)</tspan><tspan fill="#3fb950" xml:space="preserve"> [fixable]</tspan>
+      <animate attributeName="opacity" values="0;1" begin="1.35s;11.15s;20.95s;30.75s;40.55s;50.35s" dur="0.3s" fill="freeze"/>
+      <animate attributeName="opacity" values="1;0" begin="9.30s;19.10s;28.90s;38.70s;48.50s;58.30s" dur="0.2s" fill="freeze"/>
+    </text>
+    <text x="24" y="132" opacity="0">
+      <tspan fill="#6e7681" xml:space="preserve">  26:14 </tspan><tspan fill="#d29922" xml:space="preserve">warn  </tspan><tspan fill="#c9d1d9" xml:space="preserve">avoid `any` — pick a real type or use `unknown`              </tspan><tspan fill="#6e7681" xml:space="preserve">(explicit-any)</tspan>
+      <animate attributeName="opacity" values="0;1" begin="1.80s;11.60s;21.40s;31.20s;41.00s;50.80s" dur="0.3s" fill="freeze"/>
+      <animate attributeName="opacity" values="1;0" begin="9.30s;19.10s;28.90s;38.70s;48.50s;58.30s" dur="0.2s" fill="freeze"/>
+    </text>
+    <text x="24" y="152" opacity="0">
+      <tspan fill="#6e7681" xml:space="preserve">  41:5  </tspan><tspan fill="#58a6ff" xml:space="preserve">info  </tspan><tspan fill="#c9d1d9" xml:space="preserve">async "fetchUser" has no `await` — drop async or add it       </tspan><tspan fill="#6e7681" xml:space="preserve">(unnecessary-async)</tspan>
+      <animate attributeName="opacity" values="0;1" begin="2.25s;12.05s;21.85s;31.65s;41.45s;51.25s" dur="0.3s" fill="freeze"/>
+      <animate attributeName="opacity" values="1;0" begin="9.30s;19.10s;28.90s;38.70s;48.50s;58.30s" dur="0.2s" fill="freeze"/>
+    </text>
+    <text x="24" y="172" opacity="0">
+      
+      <animate attributeName="opacity" values="0;1" begin="2.70s;12.50s;22.30s;32.10s;41.90s;51.70s" dur="0.3s" fill="freeze"/>
+      <animate attributeName="opacity" values="1;0" begin="9.30s;19.10s;28.90s;38.70s;48.50s;58.30s" dur="0.2s" fill="freeze"/>
+    </text>
+    <text x="24" y="192" opacity="0">
+      <tspan fill="#f0f6fc" xml:space="preserve">src/utils/parse.ts</tspan>
+      <animate attributeName="opacity" values="0;1" begin="3.15s;12.95s;22.75s;32.55s;42.35s;52.15s" dur="0.3s" fill="freeze"/>
+      <animate attributeName="opacity" values="1;0" begin="9.30s;19.10s;28.90s;38.70s;48.50s;58.30s" dur="0.2s" fill="freeze"/>
+    </text>
+    <text x="24" y="212" opacity="0">
+      <tspan fill="#6e7681" xml:space="preserve">  12:3  </tspan><tspan fill="#d29922" xml:space="preserve">warn  </tspan><tspan fill="#c9d1d9" xml:space="preserve">catch only rethrows e — drop the try/catch entirely           </tspan><tspan fill="#6e7681" xml:space="preserve">(useless-try-catch)</tspan>
+      <animate attributeName="opacity" values="0;1" begin="3.60s;13.40s;23.20s;33.00s;42.80s;52.60s" dur="0.3s" fill="freeze"/>
+      <animate attributeName="opacity" values="1;0" begin="9.30s;19.10s;28.90s;38.70s;48.50s;58.30s" dur="0.2s" fill="freeze"/>
+    </text>
+    <text x="24" y="232" opacity="0">
+      <tspan fill="#6e7681" xml:space="preserve">  88:9  </tspan><tspan fill="#d29922" xml:space="preserve">warn  </tspan><tspan fill="#c9d1d9" xml:space="preserve">3-line commented-out code block — remove or restore            </tspan><tspan fill="#6e7681" xml:space="preserve">(commented-out-code)</tspan>
+      <animate attributeName="opacity" values="0;1" begin="4.05s;13.85s;23.65s;33.45s;43.25s;53.05s" dur="0.3s" fill="freeze"/>
+      <animate attributeName="opacity" values="1;0" begin="9.30s;19.10s;28.90s;38.70s;48.50s;58.30s" dur="0.2s" fill="freeze"/>
+    </text>
+    <text x="24" y="252" opacity="0">
+      <tspan fill="#6e7681" xml:space="preserve">  120:10</tspan><tspan fill="#58a6ff" xml:space="preserve">info  </tspan><tspan fill="#c9d1d9" xml:space="preserve">drop the explicit `undefined` — bare `return;` is equivalent  </tspan><tspan fill="#6e7681" xml:space="preserve">(return-undefined)</tspan><tspan fill="#3fb950" xml:space="preserve"> [fixable]</tspan>
+      <animate attributeName="opacity" values="0;1" begin="4.50s;14.30s;24.10s;33.90s;43.70s;53.50s" dur="0.3s" fill="freeze"/>
+      <animate attributeName="opacity" values="1;0" begin="9.30s;19.10s;28.90s;38.70s;48.50s;58.30s" dur="0.2s" fill="freeze"/>
+    </text>
+    <text x="24" y="272" opacity="0">
+      
+      <animate attributeName="opacity" values="0;1" begin="4.95s;14.75s;24.55s;34.35s;44.15s;53.95s" dur="0.3s" fill="freeze"/>
+      <animate attributeName="opacity" values="1;0" begin="9.30s;19.10s;28.90s;38.70s;48.50s;58.30s" dur="0.2s" fill="freeze"/>
+    </text>
+    <text x="24" y="292" opacity="0">
+      <tspan fill="#f0f6fc" xml:space="preserve">slop score: </tspan><tspan fill="#f85149" xml:space="preserve">39/100 (F) </tspan><tspan fill="#6e7681" xml:space="preserve">[█████████░░░░░░░░░░░░░░░]</tspan>
+      <animate attributeName="opacity" values="0;1" begin="5.40s;15.20s;25.00s;34.80s;44.60s;54.40s" dur="0.3s" fill="freeze"/>
+      <animate attributeName="opacity" values="1;0" begin="9.30s;19.10s;28.90s;38.70s;48.50s;58.30s" dur="0.2s" fill="freeze"/>
+    </text>
+    <text x="24" y="312" opacity="0">
+      <tspan fill="#c9d1d9" xml:space="preserve">errors: 0  warns: 4  infos: 2     (</tspan><tspan fill="#6e7681" xml:space="preserve">sample of 12,843 findings across 29 trending AI repos</tspan><tspan fill="#c9d1d9" xml:space="preserve">)</tspan>
+      <animate attributeName="opacity" values="0;1" begin="5.85s;15.65s;25.45s;35.25s;45.05s;54.85s" dur="0.3s" fill="freeze"/>
+      <animate attributeName="opacity" values="1;0" begin="9.30s;19.10s;28.90s;38.70s;48.50s;58.30s" dur="0.2s" fill="freeze"/>
+    </text>
+</svg>

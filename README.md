@@ -2,6 +2,8 @@
 
 [![ci](https://github.com/wemdio2/slopfighter/actions/workflows/ci.yml/badge.svg)](https://github.com/wemdio2/slopfighter/actions/workflows/ci.yml)
 [![npm](https://img.shields.io/npm/v/slopfighter.svg)](https://www.npmjs.com/package/slopfighter)
+[![downloads](https://img.shields.io/npm/dm/slopfighter.svg)](https://www.npmjs.com/package/slopfighter)
+[![node](https://img.shields.io/node/v/slopfighter.svg)](https://www.npmjs.com/package/slopfighter)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 **Anti-AI-slop refactor tool.** Detects the 18 structural bloat patterns LLMs love to generate. JS/TS, zero config, no API keys, no telemetry, runs locally in seconds.
@@ -10,16 +12,7 @@
 npx slopfighter scan .
 ```
 
-```
-src/foo.ts
-  42:10  warn  Comment "Get user name" just restates "getUserName"  (padding-comments) [fixable]
-  56:1   warn  import "format" is never used in this file            (dead-imports)
-  88:14  info  drop the explicit `undefined`                          (return-undefined) [fixable]
-  ...
-
-slop score: 47/100 (D) [█████████░░░░░░░░░░░]
-errors: 0  warns: 9  infos: 4
-```
+![slopfighter demo](./bench/demo.svg)
 
 ## Why this exists
 
