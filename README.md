@@ -30,7 +30,7 @@ We scanned **29 trending TypeScript repos** created between February and May 202
 - Worst offender: a 54k-star Claude orchestration repo at **4.93 findings per file**.
 - Cleanest: a markdown-based skill repo with **0**.
 
-Full report → [`bench/report.md`](bench/report.md). Reproducible: `node bench/run.mjs`.
+Full report → [`bench/report.md`](bench/report.md) · Interactive visualization → [`bench/index.html`](bench/index.html) (open locally or enable GitHub Pages → `https://YOUR-ORG.github.io/slopfighter/bench/`). Reproducible: `node bench/run.mjs && node bench/visualize.mjs`.
 
 ## Install
 
